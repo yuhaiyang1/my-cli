@@ -1,0 +1,24 @@
+{
+    "name": "@ah/cli",
+    "version": "0.0.9",
+    "description": "脚手架测试",
+    "main": "src/index.js",
+    "bin": {
+        "my-cli": "bin/index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^4.1.0",
+        "commander": "^5.1.0",
+        "download-git-repo": "^3.0.2",
+        "figlet": "^1.4.0",
+        "fs-extra": "^9.0.1",
+        "inquirer": "^7.2.0",
+        "log-symbols": "^4.0.0",
+        "ora": "^4.0.4"
+    }
+}
